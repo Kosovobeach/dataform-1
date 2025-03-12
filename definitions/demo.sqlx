@@ -1,0 +1,11 @@
+config { 
+    type: "view",
+    name: "demo",
+    schema: "Demo_Coonecta_bq",
+    tags: ["Demo_Coonecta_bq","daily"]
+}
+
+
+
+select 
+    1
