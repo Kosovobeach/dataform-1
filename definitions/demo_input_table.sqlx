@@ -1,0 +1,19 @@
+config { 
+    type: "table",
+    name: "demo_input_table",
+    schema: "Demo_Coonecta_bq",
+    tags: ["Demo_Coonecta_bq","daily"]
+}
+
+
+
+select 
+    reviewId,
+    userName,
+    content,
+    score,
+    thumbsUpCount
+from coe-sandbox-diego.Demo_Coonecta_bq.Amazon_cargadirecta
+where score = 1 
+
+-- = 1:  24516

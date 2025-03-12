@@ -1,0 +1,5 @@
+defaultProject: coe-sandbox-diego
+defaultLocation: US
+defaultDataset: Demo_Coonecta_bq
+defaultAssertionDataset: dataform_assertions
+dataformCoreVersion: 3.0.0

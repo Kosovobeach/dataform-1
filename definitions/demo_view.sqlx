@@ -1,0 +1,14 @@
+config { 
+    type: "view",
+    name: "demo_view",
+    schema: "Demo_Coonecta_bq",
+    tags: ["Demo_Coonecta_bq","daily"]
+}
+
+
+
+select 
+    reviewId,
+    userName,
+    content,
+from coe-sandbox-diego.Demo_Coonecta_bq.demo_input_table

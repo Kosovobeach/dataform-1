@@ -1,0 +1,17 @@
+config { 
+    type: "table",
+    name: "demo_output_table",
+    schema: "Demo_Coonecta_bq",
+    tags: ["Demo_Coonecta_bq","daily"],
+    dependencies: ["demo_view"]
+}
+
+
+
+select 
+    reviewId,
+    userName,
+    content,
+from coe-sandbox-diego.Demo_Coonecta_bq.demo_view
+
+--24516
